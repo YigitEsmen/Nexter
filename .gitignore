@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Compiled CSS
+css/
+
+### macOS ###
+# General
+.DS_Store
