@@ -1,0 +1,14 @@
+.section-features {
+    background-color: $color-gray-light-2;
+    grid-column: center-start / center-end;
+}
+
+.section-homes {
+    background-color: $color-secondary;
+    grid-column: center-start / center-end;
+}
+
+.section-gallery {
+    background-color: $color-gray-dark-1;
+    grid-column: full-start / full-end;
+}
