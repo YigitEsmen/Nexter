@@ -16,8 +16,3 @@
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 7rem;
 }
-
-.section-gallery {
-    background-color: $color-gray-dark-1;
-    grid-column: full-start / full-end;
-}
