@@ -12,6 +12,14 @@
     row-gap: 1.5rem;
     justify-content: center;
 
+    @include respond(bp-medium) {
+        grid-column: full-start / full-end;
+    }
+
+    @include respond(bp-small) {
+        padding: 5rem;
+    }
+
     &__logo {
         justify-self: center;
         height: 3rem;
